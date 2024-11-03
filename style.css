@@ -5,9 +5,7 @@
 }
 body {
   width: 100%;
-
   background-color: hsl(0, 2%, 92%);
-
   display: flex;
   justify-content: center;
   padding: 50px 0;
@@ -176,7 +174,7 @@ img {
   main {
     padding: 0;
     margin: 0;
-    scale: .8;
+    scale: .95;
     transform: scaleY(.6);
 
     display: grid;
@@ -186,7 +184,7 @@ img {
       "seven sec three four"
       "eight sec three four"
       "eight six five five";
-    gap: 15px;
+    gap: 20px;
   }
   .firstSection {
     width: 100%;
@@ -209,6 +207,7 @@ img {
   }
   .secoundSection {
     grid-area: sec;
+    width: 100%;
   } 
    .secoundSectionPragraph{
     font-size:30px;
@@ -218,6 +217,9 @@ img {
   .threeSection {
     grid-area: three;
     text-align: center;
+    width: 100%;
+    height: 100%;
+
 
   }
   .threeSectionPragraph{
@@ -233,6 +235,7 @@ left:25%
     overflow: hidden;
     grid-area: four;
     height: 100%;
+    width: 100%;
   }
   .fourSectionParagraph{
     text-align: center;
@@ -244,9 +247,10 @@ left:25%
   .fourSectionParagraph2{
 
   }
-  .fourSectionIMG{position: relative;
+  .fourSectionIMG{
+    position: relative;
     left: 30%;
-    height: 60%;
+    height:55%;
     width:100%;
 
   }
